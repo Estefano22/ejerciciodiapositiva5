@@ -23,7 +23,6 @@
 
     <EditText
         android:id="@+id/editText1"
-        android:tag="EditText1"
         android:text=""
         android:inputType="text"
         android:layout_width="match_parent"
@@ -32,7 +31,6 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:tag="EditText2"
         android:text=""
         android:inputType="text"
         android:layout_width="match_parent"
@@ -43,8 +41,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:tag="button"
-        android:text="Boton"
+        android:text="Añadir"
+        android:textColor="#000000"
         app:backgroundTint="#FF0000"
         app:iconTint="#000000" />
 
